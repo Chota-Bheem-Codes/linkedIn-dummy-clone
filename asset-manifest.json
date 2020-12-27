@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/linkedIn-dummy-clone/static/css/main.5540a95f.chunk.css",
+    "main.js": "/linkedIn-dummy-clone/static/js/main.a2652609.chunk.js",
+    "main.js.map": "/linkedIn-dummy-clone/static/js/main.a2652609.chunk.js.map",
+    "runtime-main.js": "/linkedIn-dummy-clone/static/js/runtime-main.9f4cbc43.js",
+    "runtime-main.js.map": "/linkedIn-dummy-clone/static/js/runtime-main.9f4cbc43.js.map",
+    "static/js/2.b23a8a55.chunk.js": "/linkedIn-dummy-clone/static/js/2.b23a8a55.chunk.js",
+    "static/js/2.b23a8a55.chunk.js.map": "/linkedIn-dummy-clone/static/js/2.b23a8a55.chunk.js.map",
+    "index.html": "/linkedIn-dummy-clone/index.html",
+    "static/css/main.5540a95f.chunk.css.map": "/linkedIn-dummy-clone/static/css/main.5540a95f.chunk.css.map",
+    "static/js/2.b23a8a55.chunk.js.LICENSE.txt": "/linkedIn-dummy-clone/static/js/2.b23a8a55.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9f4cbc43.js",
+    "static/js/2.b23a8a55.chunk.js",
+    "static/css/main.5540a95f.chunk.css",
+    "static/js/main.a2652609.chunk.js"
+  ]
+}

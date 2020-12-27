@@ -2,7 +2,6 @@
   "name": "linked-in",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://chota-bheem-codes.github.io/linkedIn-dummy-clone/",
   "dependencies": {
     "@material-ui/core": "^4.11.2",
     "@material-ui/icons": "^4.11.2",
@@ -25,8 +24,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"

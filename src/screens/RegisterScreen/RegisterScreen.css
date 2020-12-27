@@ -1,0 +1,159 @@
+.register{
+    background-color: rgb(230, 226, 224);
+    height: 100vh;
+}
+
+.register__header{
+    position: sticky;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     top: 0;
+}
+
+.register__header img{
+    width: 9rem;
+    margin: 1vh 30vw 1vh 0;
+}
+
+.register__header button{
+    color: #0085b3;
+    font-size: 1em;
+    height: 3rem;
+    width: 7vw;
+    border:1px solid #0085b3;
+    border-radius: 7%;
+    background-color: whitesmoke;
+    cursor: pointer;
+    margin: 1vh 0 1vh 30vw;
+}
+
+.register__body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5vh;
+}
+
+.register__body>form>h1{
+    margin-bottom: 1rem;
+    margin-right: -15vw;
+    font-size: 4em;
+    font-weight: 300;
+    font-family: "Roboto";
+    color: #0085b3;
+    z-index: 1;
+}
+
+.register__body>form{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin-right: -4vw;
+}
+
+.register__body>form>input{
+    width: 500px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.register__body>form>button {
+    width: 515px;
+    height: 50px;
+    font-size: large;
+    color: #fff;
+    background-color: #0074b1;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.register__body>img{
+    width: 38%;
+}
+
+@media screen and (max-width: 1110px) {
+    .register{
+        height: 100vh;
+        width: 100vw;
+    }
+
+    .register__header{
+        width: 100vw;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        top: 0;
+    }
+    
+    .register__header img{
+        width: 15%;
+        min-width: 5rem;
+        margin-left: 7vw;
+    }
+    
+    .register__header button{
+        color: #0085b3;
+        font-size: 100%;
+        height: 2.5rem;
+        width: 30%;
+        min-width: 4rem;
+        margin: 0;
+        margin-right: 7vw;
+        border:1px solid #0085b3;
+        border-radius: 7%;
+        background-color: whitesmoke;
+        cursor: pointer;
+    }
+
+    .register__body a{
+        display: inline-block;
+        min-width: 4rem;
+    }
+
+    .register__body{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .register__body>form{
+        width: 50vw;
+        z-index: 2;
+        justify-content: center;
+    }
+
+    .register__body>form>h1{
+        font-size: 2em;
+        font-weight: 300;
+    }
+    
+    .register__body>form>input{
+        width: 46vw;
+        height: 7vh;
+        font-size: 20px;
+        padding-left: 10px;
+        margin-bottom: 10px;
+        border-radius: 5px;
+    }
+
+    .register__body>form>button {
+        width: 47vw;
+        height: 6.5vh;
+        font-size: large;
+        color: #fff;
+        background-color: #0074b1;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .register__body>img{
+        position: absolute;
+        width: 80vw;
+        opacity: 0.7;
+        filter: blur(1vw);
+        z-index: 1;
+    }
+  }

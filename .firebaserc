@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "spotify-clone-e9554"
+    "default": "linkedin-clone-1842f",
+    "build": "linkedin-clone-1842f"
   }
 }

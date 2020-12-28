@@ -1,3 +1,7 @@
+This is LinkedIn Clone made with **create-react-app**, **Redux** and **React-Routing**. Backend is supported by **Firebase**.
+
+You can check out the working demo [here](https://linkedin-clone-1842f.web.app).
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app), using the [Redux](https://redux.js.org/) and [Redux Toolkit](https://redux-toolkit.js.org/) template.
 
 ## Available Scripts
